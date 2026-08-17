@@ -1,0 +1,31 @@
+{
+  "name": "upwork-demo-w1221-programmer-developer-build-multi-platfor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "playwright test --reporter=line"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "latest",
+    "@ai-sdk/google": "latest",
+    "@ai-sdk/openai": "latest",
+    "ai": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  }
+}

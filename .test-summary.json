@@ -1,0 +1,11 @@
+{
+  "total": 17,
+  "passing": 17,
+  "spec_files": [
+    "tests/roster.spec.ts",
+    "tests/statuses.spec.ts",
+    "tests/enrich.spec.ts",
+    "tests/blocklist.spec.ts",
+    "tests/export.spec.ts"
+  ]
+}

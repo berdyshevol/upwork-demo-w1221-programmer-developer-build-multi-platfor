@@ -1,0 +1,26 @@
+<!-- adr-pointer:start -->
+## Decisions from earlier builds
+
+These are in `.claude/adr/`, index at `.claude/adr/README.md`.
+
+Each one exists because a demo shipped broken and its own build reported
+success at the same moment — a green suite, a clean deploy, a demo that
+fails on the first click. Read the ones that apply BEFORE writing code;
+they constrain the design, not the polish.
+
+- `.claude/adr/0001-visitor-state-lives-with-the-visitor.md` — read it the demo remembers anything a visitor did: a booking, order, message, vote, draft, upload, counter, or who is signed in.
+
+They are not optional and a passing test run does not override them: the
+suite runs against one local dev server and is blind to most of what they
+cover.
+<!-- adr-pointer:end -->
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
