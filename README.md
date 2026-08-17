@@ -1,5 +1,10 @@
 # ScoutPipe — creator scouting pipeline
 
+## Live demo
+
+https://upwork-demo-w1221-programmer-develo.vercel.app
+
+
 A working prototype of the scouting pass a creator-partnerships team otherwise runs
 by hand across a spreadsheet, three analytics sites and an inbox: **discovery →
 size filtering → Kick cross-reference → contact enrichment → agency blocklist →
